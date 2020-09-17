@@ -1,0 +1,24 @@
+.navbar {
+  width: 100%;
+  height: 100%;
+  padding: $spacing-xxs $spacing-sm;
+  justify-content: space-between;
+  align-items: center;
+  &-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: $spacing-xs $spacing-sm;
+    color: #ffffff;
+    &-text {
+      width: 100%;
+      font-size: $font-size-xxl;
+      padding: 0 $spacing-secondary;
+    }
+    &-logo {
+      padding: 0 $spacing-xxs;
+    }
+  }
+}
