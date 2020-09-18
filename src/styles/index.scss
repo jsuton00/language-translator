@@ -8,3 +8,8 @@
 //layout
 @import './layout/navigation';
 @import './layout/translation';
+
+//components
+@import './components/translateInput';
+@import './components/languageSelect';
+@import './components/translatedText';

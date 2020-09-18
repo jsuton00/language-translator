@@ -23,7 +23,7 @@ function App() {
         </nav>
       </header>
       <main id="main" className="app-main container-fluid">
-        <div id="translation-section" className="translation container">
+        <div id="translation-section" className="translation">
           <div id="translation-controls" className="translation-controls row">
             <TranslateInput inputValue={text} changeValue={setText} />
             <LanguageSelect language={language} selectLanguage={setLanguage} />

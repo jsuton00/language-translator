@@ -27,15 +27,16 @@ export default function TranslatedText(props) {
   }, [language, text]);
   return (
     <div id="translated-output" className="translated-output">
-      <input
+      <textarea
         id="translated-display"
         name="translated-display"
         type="text"
         placeholder="Translate"
         className="translate-display form-control"
         value={translated}
+        rows="7"
         disabled
-      />
+      ></textarea>
     </div>
   );
 }

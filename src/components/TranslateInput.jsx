@@ -9,12 +9,13 @@ export default function TranslateInput(props) {
         name="language-input"
         type="text"
         placeholder="English..."
-        rows="5"
+        rows="7"
         className="language-input form-control"
         onChange={(e) => {
           return changeValue(e.target.value);
         }}
         value={inputValue}
+        autoFocus
       ></textarea>
     </div>
   );

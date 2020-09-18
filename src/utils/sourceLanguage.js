@@ -1,5 +1,4 @@
-export const LANGUAGES = [
-  { label: 'Choose Language', value: '' },
+export const sourceLanguages = [
   { label: 'English', value: 'en' },
   { label: 'French', value: 'fr' },
   { label: 'German', value: 'de' },
